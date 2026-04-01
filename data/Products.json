@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "name": "Kombucha Brewer",
+    "price": 82,
+    "oldPrice": null,
+    "category": "kitchen",
+    "rating": 4.7,
+    "reviewCount": 128,
+    "img": "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D",
+    "imgs": [
+      "https://plus.unsplash.com/premium_photo-1664392147011-2a720f214e01?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D"
+    ],
+    "desc": "Brew your own delicious, probiotic-rich kombucha at home with this sleek countertop fermenter. Temperature-controlled, easy to use, and beautiful enough to display on your kitchen counter. Perfect for fermentation beginners and enthusiasts alike.",
+    "badge": null,
+    "bestPrice": false
+  },
+  {
+    "id": 2,
+    "name": "Sana Sleep Mask",
+    "price": 85,
+    "oldPrice": 100,
+    "category": "wellness",
+    "rating": 4.9,
+    "reviewCount": 342,
+    "img": "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L3BmMzkta2Fyb2xpbmEtZ3JhYm93c2thLWthYm9vbXBpY3MtNjg3NC5qcGc.jpg",
+    "imgs": [
+      "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L3BmMzkta2Fyb2xpbmEtZ3JhYm93c2thLWthYm9vbXBpY3MtNjg3NC5qcGc.jpg",
+      "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L3BmMzkta2Fyb2xpbmEtZ3JhYm93c2thLWthYm9vbXBpY3MtNjg3NC5qcGc.jpg",
+      "https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA4L3BmMzkta2Fyb2xpbmEtZ3JhYm93c2thLWthYm9vbXBpY3MtNjg3NC5qcGc.jpg"
+    ],
+    "desc": "Sana is a smart sleep mask designed by Office for Product Design. It helps you relax and quickly fall into deep, restorative sleep using gentle light therapy and soft pressure. The ultra-soft memory foam material contours perfectly to your face, blocking out 100% of light while remaining completely comfortable throughout the night.",
+    "badge": "15%",
+    "bestPrice": true
+  },
+  {
+    "id": 3,
+    "name": "Engineered Sound Pro",
+    "price": 78,
+    "oldPrice": 120,
+    "category": "tech",
+    "rating": 4.5,
+    "reviewCount": 89,
+    "img": "https://img.freepik.com/free-vector/white-product-podium-with-green-tropical-palm-leaves-golden-round-arch-green-wall_87521-3023.jpg",
+    "imgs": [
+      "https://img.freepik.com/free-vector/white-product-podium-with-green-tropical-palm-leaves-golden-round-arch-green-wall_87521-3023.jpg"
+    ],
+    "desc": "Premium over-ear headphones with active noise cancellation, 40-hour battery life, and audiophile-grade sound drivers. Foldable design for easy travel. Compatible with all Bluetooth 5.0 devices. Comes with a premium hard-shell carrying case.",
+    "badge": "35%",
+    "bestPrice": false
+  },
+  {
+    "id": 4,
+    "name": "Purified Air Design",
+    "price": 32,
+    "oldPrice": null,
+    "category": "tech",
+    "rating": 4.3,
+    "reviewCount": 57,
+    "img": "https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/primary/ProductShowcasesampleimages/JPEG/Product+Showcase-1.jpg",
+    "imgs": [
+      "https://d2v5dzhdg4zhx3.cloudfront.net/web-assets/images/storypages/primary/ProductShowcasesampleimages/JPEG/Product+Showcase-1.jpg"
+    ],
+    "desc": "Compact desktop air purifier with HEPA filtration. Removes 99.97% of airborne particles, allergens, dust, and odors. Ultra-quiet operation at just 25dB. Covers up to 150 sq ft. Perfect for your home office or bedroom.",
+    "badge": null,
+    "bestPrice": false
+  },
+  {
+    "id": 5,
+    "name": "Arc Desk Lamp",
+    "price": 59,
+    "oldPrice": 75,
+    "category": "lighting",
+    "rating": 4.6,
+    "reviewCount": 203,
+    "img": "https://png.pngtree.com/png-vector/20210602/ourmid/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg",
+    "imgs": [
+      "https://png.pngtree.com/png-vector/20210602/ourmid/pngtree-3d-beauty-cosmetics-product-design-png-image_3350323.jpg"
+    ],
+    "desc": "Minimalist LED desk lamp with touch dimmer and 5 color temperature settings from warm candlelight to cool daylight. USB-C charging port on the base. Memory function remembers your last setting.",
+    "badge": "21%",
+    "bestPrice": false
+  },
+  {
+    "id": 6,
+    "name": "Nordic Side Table",
+    "price": 149,
+    "oldPrice": null,
+    "category": "furniture",
+    "rating": 4.8,
+    "reviewCount": 76,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVjdfNf40AwaxAmTg4VoYuDFyxDxo_qXLVg&s",
+    "imgs": [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJVjdfNf40AwaxAmTg4VoYuDFyxDxo_qXLVg&s"
+    ],
+    "desc": "Solid oak side table with a powder-coated metal frame. Simple, clean Scandinavian design that fits any interior. Easy to assemble. Dimensions: 45cm diameter, 55cm height. Available in natural oak and walnut finish.",
+    "badge": null,
+    "bestPrice": true
+  }
+]
