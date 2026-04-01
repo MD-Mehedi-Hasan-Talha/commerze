@@ -1,0 +1,8 @@
+[
+  { "id": "all", "name": "All", "icon": "✨" },
+  { "id": "tech", "name": "Technology", "icon": "💻" },
+  { "id": "lighting", "name": "Lighting", "icon": "💡" },
+  { "id": "furniture", "name": "Furniture", "icon": "🛋️" },
+  { "id": "kitchen", "name": "Kitchen", "icon": "🍳" },
+  { "id": "wellness", "name": "Wellness", "icon": "🧘" }
+]
