@@ -1,12 +1,13 @@
 import ProductsData from "@/data/Products.json";
+import { router } from "expo-router";
 import React from "react";
 import {
-    FlatList,
-    Image,
-    StyleSheet,
-    Text,
-    TouchableOpacity,
-    View,
+  FlatList,
+  Image,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
 } from "react-native";
 
 export default function Products() {
@@ -28,7 +29,11 @@ export default function Products() {
 
 function SingleProduct({ product }) {
   return (
-    <TouchableOpacity style={styles.card} activeOpacity={0.8}>
+    <TouchableOpacity
+      style={styles.card}
+      activeOpacity={0.8}
+      onPress={() => router.push(`/${product.id}`)}
+    >
       {/* Best Badge */}
       {product.bestPrice && (
         <View style={styles.bestBadge}>
@@ -49,7 +54,7 @@ function SingleProduct({ product }) {
           <Image
             source={{ uri: product.img }}
             style={styles.image}
-            resizeMode="contain"
+            resizeMode="cover"
           />
         ) : (
           <Text style={{ fontSize: 40 }}>📦</Text>
