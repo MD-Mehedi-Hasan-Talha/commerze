@@ -1,12 +1,12 @@
 import { Image, StyleSheet } from "react-native";
 
-export default function DetailsImage() {
+export default function DetailsImage({ imageSrc }: { imageSrc?: string }) {
   return (
     <Image
       style={styles.image}
-      resizeMode="contain"
+      resizeMode="cover"
       source={{
-        uri: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeKOXy7GSVGKOL7rH7ttHPvOkQA17W0weeAg&s",
+        uri: imageSrc,
       }}
     />
   );

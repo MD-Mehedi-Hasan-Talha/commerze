@@ -3,11 +3,12 @@ import Footer from "@/components/shop/details/footer";
 import Topbar from "@/components/shop/details/topbar";
 import ProductsData from "@/data/Products.json";
 import { useLocalSearchParams } from "expo-router";
-import { StatusBar } from "expo-status-bar";
+import { useState } from "react";
 import { StyleSheet, View } from "react-native";
 
 export default function ProductDetails() {
   const { productId } = useLocalSearchParams();
+  const [open, setOpen] = useState(true);
 
   const productData = ProductsData.find(
     (product) => String(product.id) === productId,
@@ -15,19 +16,13 @@ export default function ProductDetails() {
 
   return (
     <View style={styles.container}>
-      <StatusBar style="light" />
       {/* 🔥 Image Section */}
-      <DetailsImage />
+      <DetailsImage imageSrc={productData?.img} />
 
       {/* 🔥 Topbar overlay */}
       <Topbar />
 
-      {/* 🔥 Content */}
-      {/* <ScrollView contentContainerStyle={styles.content}>
-        <Text style={styles.title}>
-          {productData?.name} (ID: {productId})
-        </Text>
-      </ScrollView> */}
+      {/* 🔥 Content Section */}
 
       {/* 🔥 Footer */}
       <Footer />

@@ -3,7 +3,7 @@ import Products from "@/components/shop/products";
 import SearchBar from "@/components/shop/searchbar";
 import { SafeAreaView } from "react-native-safe-area-context";
 
-export default function Index() {
+export default function ShopScreen() {
   return (
     <SafeAreaView>
       <SearchBar />

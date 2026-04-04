@@ -1,11 +1,14 @@
+import { router } from "expo-router";
 import { Pressable, StyleSheet, Text, View } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
 
 export default function Topbar() {
+  const insets = useSafeAreaInsets();
+  
   return (
-    <SafeAreaView style={styles.topBar}>
+    <View style={[styles.topBar, { paddingTop: Math.max(insets.top, 16) }]}>
       <View style={styles.row}>
-        <Pressable style={styles.circleBtn}>
+        <Pressable style={styles.circleBtn} onPress={() => router.back()}>
           <Text style={styles.iconText}>←</Text>
         </Pressable>
         <View style={{ flexDirection: "row", gap: 10 }}>
@@ -17,7 +20,7 @@ export default function Topbar() {
           </Pressable>
         </View>
       </View>
-    </SafeAreaView>
+    </View>
   );
 }
 
@@ -44,5 +47,7 @@ const styles = StyleSheet.create({
     height: 40,
     borderRadius: 20,
     backgroundColor: "rgba(255,255,255,0.7)",
+    justifyContent: "center",
+    alignItems: "center",
   },
 });

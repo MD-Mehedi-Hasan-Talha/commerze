@@ -32,7 +32,7 @@ function SingleProduct({ product }) {
     <TouchableOpacity
       style={styles.card}
       activeOpacity={0.8}
-      onPress={() => router.push(`/${product.id}`)}
+      onPress={() => router.push(`/shop/${product.id}`)}
     >
       {/* Best Badge */}
       {product.bestPrice && (
